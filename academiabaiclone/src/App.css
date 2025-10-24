@@ -1,0 +1,915 @@
+
+body{
+    background-color: rgb(255, 254, 254);
+   font-family: 'Montserrat', 'Poppins' sans-serif ;
+     border-left: 500px;
+}
+#academia{
+    width: 130px;
+    height: 60px;
+   margin-left: 10px;
+   margin-top: 10px;
+}
+#caixa{
+    width: 750px;
+    height: 70px;
+    background-color: rgba(210, 238, 243, 0.235);
+   margin-left: 300px;
+    border-radius: 20px;
+    margin-top:-70px;
+}
+#barra{
+    width: 130px;
+    height: 22px;
+    border: 5px solid rgba(38, 86, 163, 0.838);
+    border-radius:12px ;
+    background-color: rgb(38, 86, 163);
+   padding-left: 12px;
+   font-size: 14px;
+   margin-left: 50px;
+   margin-top: 18px;
+}
+#lupa{
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 100px;
+   margin-left: -40px;
+margin-bottom: -5px;
+}
+input::placeholder{
+    color: rgb(118, 162, 228);
+}
+#label1{
+    color: rgb(40, 87, 161);
+    margin-left: 30px;
+}
+#label2{
+    color: rgb(3, 31, 72);
+    margin-left: 22px;
+}
+#label3{
+    color: rgb(3, 31, 72);
+    margin-left: 24px;
+}
+#label4{
+    color: rgb(3, 31, 72);
+    margin-left: 24px;
+}
+#label5{
+    color: rgb(3, 31, 72);
+    margin-left: 24px;
+}
+.circulomaior{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(210, 238, 243, 0.235);
+    border: 1px solid rgba(210, 238, 243, 0.235);
+    border-radius: 500px;
+    margin-left: 1100px;
+    margin-top: -70px;
+}
+.circulomenor{
+    width: 42px;
+    height: 42px;
+    background-color: rgb(44, 95, 176);
+    border: 1px solid rgb(44, 95, 176);
+    border-radius: 500px;
+    margin: 8px 10px 10px 8px;
+   align-items: center;
+    display: flex;
+}
+.circulomenor:hover {
+  background-color: #00ffff; /* cor aqua */
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,255,255,0.7);
+}
+#bolinha1{
+    width: 5px;
+    height: 5px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 900px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -14px;
+
+}
+#bolinha3{
+    width: 5px;
+    height: 5px;
+    margin-left: -0.0px;
+    border: none;
+    border-radius: 900px;
+    margin-top: 8px;
+    background-color: rgb(255, 255, 255);
+}
+#bolinha4{
+    width: 5px;
+    height: 5px;
+    margin-left: -0.0px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 7px;
+    border: none;
+    border-radius: 900px;
+}
+#quadro{
+    position: relative;
+}
+#edificio{
+    width: 800px;
+    height: 700px;
+    margin-top: -700px;
+   z-index: 1;
+}
+#modelo{
+    width: 700px;
+    margin-left: 600px;
+   margin-top: 30px;
+   position: relative;
+}
+.circulocentral{
+    width: 450px;
+    height: 450px;
+    background-color: rgba(128, 201, 216, 0.235);
+    border-radius: 900px;
+    margin-top: -600px;
+    margin-left: 40px;
+}
+.texto{
+   font-family: 'Montserrat', 'Poppins' sans-serif ;
+    color: rgb(4, 27, 87);
+    font-size: 22px;
+    margin-left: 180px;
+    margin-top: -370px;
+    font-weight: 400;
+}
+.seta{
+    color: rgb(23, 91, 209);
+   font-weight: bolder;
+   margin-left: 30px;
+  font-size: 30px;
+}
+.orgulho{
+    font-family: 'Montserrat', 'Poppins' sans-serif ;
+    font-size: 60px;
+    color: rgba(5, 72, 179, 0.838);
+    margin-left: 130px;
+    margin-top: -80px;
+    font-weight: bolder;
+}
+#lasttext{
+    color: rgb(3, 31, 72);
+    font-size: 19px;
+    margin-left: 100px;
+}
+#botao{
+    background-color: rgb(5, 228, 228);
+    color: rgb(28, 69, 130);
+    border: 1px solid rgb(5, 228, 228);
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    margin-left: 200px;
+}
+#retangulo{
+    height: 120px;
+    width: 600px;
+    background-color: rgb(0, 157, 255);
+    margin-left: 700px;
+    z-index: 3;
+    margin-top: -360px;
+  opacity: 0.2;
+}
+#feitos{
+margin-left: 1130px;
+margin-top: -110px;
+color: rgb(255, 255, 255);
+position: relative;
+font-size: 26px;
+font-weight: bold;
+font-family: 'Montserrat', 'Poppins' sans-serif ;
+}
+#futuro{
+   font-family: 'Montserrat', 'Poppins' sans-serif ;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    writing-mode: vertical-rl;
+    margin-left: 1134px;
+    position: relative;
+    margin-top: -30px;
+    font-weight: bold;
+}
+#de{
+    color: rgb(255, 255, 255);
+    margin-top: -418px;
+    margin-left: 1128px;
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+}
+#divazul{
+    width: 1000px;
+    height: 90px;
+    background-color: rgba(5, 72, 179, 0.838);
+    margin-top: 450px;
+    position: relative;
+    margin-left: 300px;
+    opacity: 100;
+}
+#divverde{
+    width: 30px;
+    height: 90px;
+    background-color: rgb(5, 228, 228);
+}
+#continuamos{
+  color: white;
+  font-size: 30px;
+  margin-left: 200px;
+  white-space: nowrap;
+  margin-top: 100px;
+  justify-content: center; 
+  align-items: center; 
+  border: none;  
+  padding-top: 30px;
+  padding-right: 10px;
+}
+#pontos{
+   background-color: rgb(5, 228, 228);
+    font-size: 40px;
+    margin-top: -74px;
+    position: relative;
+    margin-left: 803px ;
+    color: rgb(5, 228, 228);
+}
+.setadireita{
+    color: rgb(4, 38, 97);
+   font-weight: bolder;
+   margin-left: 20px;
+  font-size: 30px;
+  margin-top: 120px;
+}
+#div1{
+    background-color: white;
+    border: 1.5px solid rgb(219, 219, 219);
+    border-radius: 28px;
+    width: 270px;
+    height: 100px;
+    margin-left: 70px;
+    margin-top: -100px;
+}
+#imagem{
+    width: 100px;
+    height: 80px;
+    border-radius: 12px;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+#licenciatura1{
+    margin-left: 140px;
+    margin-top: -85px;
+   font-size: 17px;
+   color: rgb(1, 47, 87);
+}
+.contabilidade{
+margin-left: 140px;
+    margin-top: -16px;
+   font-size: 17px;
+   font-weight: 700;
+   color: rgb(3, 31, 72);
+}
+.data{
+margin-left: 140px;
+    margin-top: -15px;
+   font-size: 17px;
+   color: rgb(1, 47, 87);
+}
+#segundadiv{
+     background-color: white;
+    border: 1.5px solid rgb(219, 219, 219);
+    border-radius: 28px;
+    width: 280px;
+    height: 100px;
+    margin-left: 363px;
+    margin-top: -103px;
+}
+#imagem2{
+     width: 90px;
+    height: 80px;
+    border-radius: 12px;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+#licenciatura2{
+    margin-left: 130px;
+    margin-top: -85px;
+   font-size: 17px;
+   color: rgb(1, 47, 87);
+}
+#gestao{
+    margin-left: 130px;
+    margin-top: -16px;
+   font-size: 17px;
+   font-weight: 700;
+   color: rgb(3, 31, 72);
+}
+.data2{
+    margin-left: 130px;
+    margin-top: -15px;
+   font-size: 17px;
+   color: rgb(1, 47, 87);
+}
+#terceiradiv{
+     background-color: white;
+    border: 1.5px solid rgb(219, 219, 219);
+    border-radius: 28px;
+    width: 280px;
+    height: 100px;
+    margin-left: 666px;
+    margin-top: -103px;
+}
+#imagem3{
+     width: 90px;
+    height: 80px;
+    border-radius: 12px;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+#licenciatura3{
+     margin-left: 130px;
+    margin-top: -85px;
+   font-size: 17px;
+   color: rgb(1, 47, 87);
+}
+#informatica{
+     margin-left: 130px;
+    margin-top: -16px;
+   font-size: 17px;
+   font-weight: 700;
+   color: rgb(3, 31, 72);
+}
+.data3{
+     margin-left: 130px;
+    margin-top: -15px;
+   font-size: 17px;
+   color: rgb(1, 47, 87);
+}
+#quartadiv{
+ background-color: white;
+    border: 1.5px solid rgb(219, 219, 219);
+    border-radius: 28px;
+    width: 280px;
+    height: 100px;
+    margin-left: 968px;
+    margin-top: -103px;
+}
+#imagem4{
+     width: 90px;
+    height: 80px;
+    border-radius: 12px;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+#formacao{
+     margin-left: 130px;
+    margin-top: -85px;
+   font-size: 17px;
+   color: rgb(1, 47, 87);
+}
+#manutencao{
+     margin-left: 130px;
+    margin-top: -16px;
+   font-size: 17px;
+   font-weight: 700;
+   color: rgb(3, 31, 72);
+}
+.data4{
+     margin-left: 130px;
+    margin-top: -15px;
+   font-size: 17px;
+   color: rgb(1, 47, 87);
+}
+.setadireita1{
+     color: rgb(4, 38, 97);
+   font-weight: bolder;
+   margin-left: 1280px;
+  font-size: 30px;
+  margin-top: -67px;
+}
+#moco{
+    margin-left: 5px;
+    width: 210px;
+    height: 349px;
+    margin-top: 50px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+#idoso{
+    width: 210px;
+    height: 350px;
+    margin-top: 50px;
+  margin-left: -10px;
+}
+#moça{
+     width: 210px;
+    height: 349px;
+    margin-top: 50px;
+  margin-left: -10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#faixa1{
+      height: 120px;
+    width: 618px;
+    background-color: rgb(6, 30, 250);
+    margin-left: 0.5px;
+    z-index: 3;
+    margin-top: -280px;
+  opacity: 0.2;
+}
+#faixa2{
+    height: 120px;
+    width: 647px;
+    background-color: rgb(38, 86, 163);
+    margin-left: -7px;
+    z-index: 3;
+    margin-top: -120px;
+}
+#sobrenos{
+    color: rgb(45, 98, 179);
+    font-size: 22px;
+    margin-left: 650px;
+    margin-top: -150px;
+}
+.umacademia{
+     margin-left: 650px;
+     margin-top: -20px;
+     color: rgb(3, 50, 89);
+}
+.textao{
+     margin-left: 654px;
+     margin-top: -10px;
+     color: rgb(0, 47, 86);
+}
+#saibamais{
+    background-color: rgb(38, 86, 163);
+    width: 130px;
+    height: 42px;
+    color: white;
+    margin-left: 650px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+   
+}
+#bolinhapri{
+    width: 1400px;
+  margin-top: 100px;
+}
+#academiabai{
+    color: rgb(45, 98, 179);
+    font-size: 22px;
+    margin-left: 10px;
+}
+#espaco{
+     color: rgb(3, 50, 89);
+     margin-left: 12px;
+}
+#textao2{
+     color: rgb(0, 47, 86);
+     margin-left: 10px;
+}
+#rodadasimagens{
+    margin-left: 650px;
+    margin-top: -350px;
+    width: 600px;
+    height: 250px;
+}
+.controller{
+    margin-top: 5px;
+
+}
+#saibamais2{
+     background-color: rgb(38, 86, 163);
+    width: 130px;
+    height: 42px;
+    color: white;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+#agendarvisita{
+    background-color: rgb(5, 228, 228);
+    color: rgb(28, 69, 130);
+    border: 1px solid rgb(5, 228, 228);
+    border-radius: 10px;
+    width: 160px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 7px;
+    padding-right: 30px;
+}
+#laço{
+    margin-left: -40px;
+    width: 18px;
+    height: 18px;
+}
+#baixar{
+    background-color: rgb(5, 228, 228);
+     width: 48px;
+    height: 48px;
+    border: 1px solid rgb(5, 228, 228);
+    border-radius: 500px;
+    margin-left: 22px;
+    margin-top: -20px;
+}
+#download{
+     margin-left: -47px;
+    width: 38px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: -90px;
+}
+.faixaazul{
+     width: 1200px;
+    height: 160px;
+    background-color: rgba(0, 55, 111, 0.922);
+    margin-top: 150px;
+    position: relative;
+    margin-left: -8px;
+}
+.faixaverde{
+      width: 33px;
+    height: 160px;
+    background-color: rgb(5, 228, 228);
+    margin-left: 1200px;
+   position: relative;
+
+}
+.mundo{
+    margin-left: 30px;
+    width: 900px;
+  margin-top: -100px;
+   position: absolute;
+  top: 120%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+}
+#maispubli{
+     background-color: rgb(38, 86, 163);
+    width: 200px;
+    height: 42px;
+    color: white;
+    margin-left: 1050px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 100px;
+}
+.segundaacademia{
+     color: rgb(45, 98, 179);
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: -40px;
+}
+.ultimaspubli{
+    color: rgb(3, 50, 89);
+     margin-left: 12px;
+     margin-top: -20px;
+}
+#caixinha{
+    width: 220px;
+    height: 280px;
+    border: none;
+    border-radius: 30px;
+    border: 2px solid rgba(217, 225, 225, 0.831);
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+}
+#tias{
+    width: 180px;
+    height: 120px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#isaf{
+    margin-left: 20px;
+    margin-top: 5px;
+    color: rgb(3, 50, 89);
+}
+.artigorecente{
+    background-color: rgb(5, 228, 228);
+    color: rgb(41, 88, 159);
+    border: none;
+    border-radius: 7px;
+    height: 26px;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: -10px;
+}
+#lerpubli{
+    color: rgb(38, 86, 163);
+    margin-left: 20px;
+    font-weight: 900;
+}
+.caixinha2{
+      width: 220px;
+    height: 280px;
+    border: none;
+    border-radius: 30px;
+    border: 2px solid rgba(217, 225, 225, 0.831);
+    margin-top: -280px;
+    margin-left: 280px;
+    background-color: rgb(255, 255, 255);
+}
+#conferencia{
+    width: 180px;
+    height: 120px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#isaf2{
+    margin-left: 20px;
+    margin-top: 5px;
+    color: rgb(3, 50, 89);
+}
+.data5{
+     background-color: rgba(203, 223, 230, 0.726);
+   color: rgb(41, 88, 159);
+    border: none;
+    border-radius: 7px;
+    height: 26px;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: -10px;
+}
+#caixinha3{
+     width: 220px;
+    height: 280px;
+    border: none;
+    border-radius: 30px;
+    border: 2px solid rgba(217, 225, 225, 0.831);
+    margin-top: -285px;
+    margin-left:538px;
+    background-color: rgb(255, 255, 255);
+}
+#confe2{
+      width: 180px;
+    height: 120px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#isafencerra{
+     margin-left: 20px;
+    margin-top: 5px;
+    color: rgb(3, 50, 89);
+}
+#data6{
+    background-color: rgba(203, 223, 230, 0.726);
+   color: rgb(41, 88, 159);
+    border: none;
+    border-radius: 7px;
+    height: 26px;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: -10px;
+}
+#caixinha4{
+     width: 220px;
+    height: 280px;
+    border: none;
+    border-radius: 30px;
+    border: 2px solid rgba(217, 225, 225, 0.831);
+    margin-top: -285px;
+    margin-left:795px;
+    background-color: rgb(255, 255, 255);
+}
+#senhora{
+     width: 180px;
+    height: 120px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#RH{
+    margin-left: 20px;
+    margin-top: 5px;
+    color: rgb(3, 50, 89);
+}
+#data7{
+    background-color: rgba(203, 223, 230, 0.726);
+   color: rgb(41, 88, 159);
+    border: none;
+    border-radius: 7px;
+    height: 26px;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: -10px;
+}
+#caixinha5{
+     width: 220px;
+    height: 280px;
+    border: none;
+    border-radius: 30px;
+    border: 2px solid rgba(217, 225, 225, 0.831);
+    margin-top: -285px;
+    margin-left:1050px;
+    background-color: rgb(255, 255, 255);
+}
+#senhor{
+     width: 180px;
+    height: 120px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#etica{
+     margin-left: 20px;
+    margin-top: 5px;
+    color: rgb(3, 50, 89);
+}
+#data8{
+     background-color: rgba(203, 223, 230, 0.726);
+   color: rgb(41, 88, 159);
+    border: none;
+    border-radius: 7px;
+    height: 26px;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: -10px;
+}
+.rodadasimagens2{
+    margin-left: 10px;
+    margin-top: 100px;
+    width: 1250px;
+    height: 120px;
+}
+#footer{
+    width: auto;
+  margin: 0;
+    height: 400px;
+    background-color: rgba(221, 232, 236, 0.726);
+    margin-top: 70px;
+}
+#icone{
+     width: 190px;
+    height: 100px;
+   margin-left: 10px;
+   margin-top: 50px;
+}
+.criada{
+    margin-left: 15px;
+    color: rgb(3, 30, 72);
+}
+#titulo{
+    font-weight: bold;
+    font-size: 18px;
+}
+#grupo1{
+    margin-left: 370px;
+    margin-top: -180px;
+    color: rgb(3, 30, 72);
+    font-size: 18px;
+}
+#grupo2{
+     margin-left: 570px;
+    margin-top: -220px;
+    color: rgb(3, 30, 72);
+    font-size: 18px;
+}
+.atalhos{
+    font-weight: bold;
+    font-size: 18px;
+}
+#grupo3{
+     margin-left: 730px;
+    margin-top: -180px;
+    color: rgb(3, 30, 72);
+    font-size: 18px;
+}
+#qualidade{
+     font-weight: bold;
+    font-size: 18px;
+}
+#contatos{
+     margin-left: 960px;
+    margin-top: -128px;
+    color: rgb(3, 30, 72);
+    font-size: 18px;
+     font-weight: bold;
+    font-size: 18px;
+}
+.avenida{
+     margin-left: 990px;
+    margin-top: -5px;
+    color: rgb(3, 30, 72);
+    font-size: 16px;
+}
+#resto{
+    margin-left: 950px;
+   width: 30px;
+  margin-top: -150px;
+
+}
+#AB{
+     margin-left: 990px;
+    margin-top: -5px;
+    color: rgb(3, 30, 72);
+    font-size: 16px;
+}
+#number{
+    margin-left: 990px;
+    margin-top: -5px;
+    color: rgb(3, 30, 72);
+    font-size: 16px;
+}
+#email{
+     margin-left: 990px;
+    margin-top: -5px;
+    color: rgb(3, 30, 72);
+    font-size: 16px;
+}
+#cincobolinhas{
+    width: 400px;
+    height: 100px;
+    margin-left: 990px;
+   margin-top: -100px;
+}
+#final{
+    width: 1300px;
+    height: 50px;
+    background-color:rgb(5, 83, 173);
+    margin-top: -20px;
+}
+#politica{
+    margin-left: 20px;
+    color: white;
+   padding-top: 15px;
+}
+#centro{
+     margin-left: 500px;
+    color: rgb(255, 255, 255);
+   padding-top: 15px;
+    margin-top: -50px;
+}
+#redessociais{
+     padding-top: 15px;
+    margin-top: -130px;
+    margin-left: 1050px;
+    position: relative;
+}
+button:hover ~ .cursor,
+label:hover ~ .cursor {
+  transform: translate(-50%, -50%) scale(1.5);
+  background: rgba(0, 255, 255, 0.8);
+}
+
+
+/* 🔵 Efeito de hover nos botões */
+button {
+  cursor: none; /* para o cursor aqua aparecer */
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: #00ffff !important; /* aqua */
+  color: white !important;
+  transform: scale(1.05);
+  border: none;
+}
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #00ffff !important;
+  color: #003333 !important; /* azul esverdeado escuro */
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+  transform: scale(1.07);
+}
+button:hover {
+  background-color: #007aff; /* tom aqua/azul igual ao site */
+  color: white;
+  transform: scale(1.05);
+}
+
+/* 🔵 Hover nos labels (menus) */
+label {
+  cursor: none;
+  transition: color 0.3s ease;
+}
+
+label:hover {
+  color: #00ffff; /* aqua */
+}
+
+/* 🔵 Para o cursor desaparecer quando passa por cima de elementos interativos */
+a, input, textarea {
+  cursor: none;
+}
+
+
