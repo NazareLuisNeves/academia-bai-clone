@@ -1,0 +1,23 @@
+.slide-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.slide-img {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.slide-text h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.slide-text p {
+  margin-bottom: 15px;
+  max-width: 300px;
+}

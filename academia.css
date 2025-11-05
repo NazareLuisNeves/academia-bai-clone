@@ -22,15 +22,15 @@ body{
     height: 22px;
     border: 5px solid rgba(38, 86, 163, 0.838);
     border-radius:12px ;
-    background-color: rgb(38, 86, 163);
+    background-color: rgb(35, 92, 183);
    padding-left: 12px;
    font-size: 14px;
    margin-left: 50px;
    margin-top: 18px;
 }
 #lupa{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     border: none;
     border-radius: 100px;
    margin-left: -40px;
@@ -75,27 +75,29 @@ input::placeholder{
     border: 1px solid rgb(44, 95, 176);
     border-radius: 500px;
     margin: 8px 10px 10px 8px;
-   align-items: center;
+   flex-direction: column;
     display: flex;
+    gap: 10px;
 }
 #bolinha1{
     width: 5px;
     height: 5px;
-    margin-left: 18px;
+    margin-left:18px;
     border: none;
     border-radius: 900px;
     background-color: rgb(255, 255, 255);
-    margin-top: -14px;
+    margin-top: 10px;
 
 }
 #bolinha3{
     width: 5px;
     height: 5px;
-    margin-left: -0.0px;
+    margin-left: 1127.5px;
     border: none;
     border-radius: 900px;
-    margin-top: 8px;
+    margin-top: -27px;
     background-color: rgb(255, 255, 255);
+    margin-bottom: 200px;
 }
 #bolinha4{
     width: 5px;
@@ -124,7 +126,7 @@ input::placeholder{
 .circulocentral{
     width: 450px;
     height: 450px;
-    background-color: rgba(128, 201, 216, 0.235);
+    background-color: rgba(16, 192, 227, 0.235);
     border-radius: 900px;
     margin-top: -600px;
     margin-left: 40px;
@@ -205,11 +207,11 @@ font-family: 'Montserrat', 'Poppins' sans-serif ;
 #divazul{
     width: 1000px;
     height: 90px;
-    background-color: rgba(5, 72, 179, 0.838);
+    background-color: rgb(38, 86, 163);
     margin-top: 450px;
     position: relative;
     margin-left: 300px;
-    opacity: 100;
+    
 }
 #divverde{
     width: 30px;
@@ -755,6 +757,7 @@ margin-left: 140px;
     height: 400px;
     background-color: rgba(221, 232, 236, 0.726);
     margin-top: 70px;
+    position: relative;
 }
 #icone{
      width: 190px;
@@ -861,5 +864,5 @@ margin-left: 140px;
      padding-top: 15px;
     margin-top: -130px;
     margin-left: 1050px;
-    position: relative;
+    
 }

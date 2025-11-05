@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(255, 254, 254);
+   font-family: 'Montserrat', 'Poppins' sans-serif ;
+     border-left: 500px;
+}
+.academia{
+    width: 130px;
+    height: 60px;
+   margin-left: 10px;
+   margin-top: 10px;
+}
+.caixa{
+    width: 750px;
+    height: 70px;
+    background-color: rgba(228, 234, 243, 0.374);
+   margin-left: 300px;
+    border-radius: 20px;
+    margin-top:-63px;
+}
+.barra{
+    width: 130px;
+    height: 22px;
+    border: 5px solid rgb(37, 91, 179);
+    border-radius:12px ;
+    background-color: rgb(37, 91, 179);
+   padding-left: 12px;
+   font-size: 14px;
+   margin-left: 50px;
+   margin-top: 18px;
+}
+.lupa{
+    width: 22px;
+    height: 22px;
+    border: none;
+    border-radius: 100px;
+   margin-left: -40px;
+margin-bottom: -5px;
+}
+input::placeholder{
+    color: rgb(118, 162, 228);
+}
+.label1{
+    color: rgb(40, 87, 161);
+    margin-left: 30px;
+}
+.menu1{
+    background-color: rgba(178, 202, 206, 0.235);
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    color: rgb(57, 55, 55);
+}
+.label2{
+    color: rgb(3, 31, 72);
+    margin-left: 420px;
+    margin-top: -10px;
+}
+.label3{
+    color: rgb(3, 31, 72);
+    margin-left: 24px;
+    margin-top: -70px;
+}
+.label4{
+    color: rgb(3, 31, 72);
+    margin-left: 24px;
+    margin-top: -70px;
+}
+.label5{
+    color: rgb(3, 31, 72);
+    margin-left: 24px;
+    margin-top: -70px;
+}
+.circulomaior{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(228, 234, 243, 0.374);
+    border: 1px solid rgba(228, 234, 243, 0.374);
+    border-radius: 500px;
+    margin-left: 1100px;
+    margin-top: -70px;
+}
+.circulomenor{
+    width: 42px;
+    height: 42px;
+    background-color: rgb(44, 95, 176);
+    border: 1px solid rgb(44, 95, 176);
+    border-radius: 500px;
+    margin: 8px 10px 10px 8px;
+   align-items: center;
+    display: flex;
+}
+.circulomenor:hover {
+  background-color: #00ffff; 
+ 
+ 
+}
+.bolinha1{
+    width: 5px;
+    height: 5px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 900px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -14px;
+
+}
+.bolinha3{
+    width: 5px;
+    height: 5px;
+    margin-left: -0.0px;
+    border: none;
+    border-radius: 900px;
+    margin-top: 3px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 36px;
+}
+.bolinha4{
+    width: 5px;
+    height: 5px;
+    margin-left: -0.0px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 7px;
+    border: none;
+    border-radius: 900px;
+}

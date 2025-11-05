@@ -1,37 +1,38 @@
 
+
 body{
     background-color: rgb(255, 254, 254);
    font-family: 'Montserrat', 'Poppins' sans-serif ;
      border-left: 500px;
 }
-#academia{
+.academia{
     width: 130px;
     height: 60px;
    margin-left: 10px;
    margin-top: 10px;
 }
-#caixa{
+.caixa{
     width: 750px;
     height: 70px;
-    background-color: rgba(210, 238, 243, 0.235);
+    background-color: rgba(228, 234, 243, 0.374);
    margin-left: 300px;
     border-radius: 20px;
-    margin-top:-70px;
+    margin-top:-63px;
 }
-#barra{
+.barra{
     width: 130px;
     height: 22px;
-    border: 5px solid rgba(38, 86, 163, 0.838);
+    border: 5px solid rgb(37, 91, 179);
     border-radius:12px ;
-    background-color: rgb(38, 86, 163);
+    background-color: rgb(37, 91, 179);
    padding-left: 12px;
    font-size: 14px;
    margin-left: 50px;
    margin-top: 18px;
 }
-#lupa{
-    width: 20px;
-    height: 20px;
+.lupa{
+    width: 22px;
+    height: 22px;
     border: none;
     border-radius: 100px;
    margin-left: -40px;
@@ -40,31 +41,42 @@ margin-bottom: -5px;
 input::placeholder{
     color: rgb(118, 162, 228);
 }
-#label1{
+.label1{
     color: rgb(40, 87, 161);
     margin-left: 30px;
 }
-#label2{
-    color: rgb(3, 31, 72);
-    margin-left: 22px;
+.menu1{
+    background-color: rgba(178, 202, 206, 0.235);
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    color: rgb(57, 55, 55);
 }
-#label3{
+.label2{
+    color: rgb(3, 31, 72);
+    margin-left: 420px;
+    margin-top: -10px;
+}
+.label3{
     color: rgb(3, 31, 72);
     margin-left: 24px;
+    margin-top: -70px;
 }
-#label4{
+.label4{
     color: rgb(3, 31, 72);
     margin-left: 24px;
+    margin-top: -70px;
 }
-#label5{
+.label5{
     color: rgb(3, 31, 72);
     margin-left: 24px;
+    margin-top: -70px;
 }
 .circulomaior{
     width: 60px;
     height: 60px;
-    background-color: rgba(210, 238, 243, 0.235);
-    border: 1px solid rgba(210, 238, 243, 0.235);
+    background-color: rgba(228, 234, 243, 0.374);
+    border: 1px solid rgba(228, 234, 243, 0.374);
     border-radius: 500px;
     margin-left: 1100px;
     margin-top: -70px;
@@ -80,11 +92,11 @@ input::placeholder{
     display: flex;
 }
 .circulomenor:hover {
-  background-color: #00ffff; /* cor aqua */
-  transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(0,255,255,0.7);
+  background-color: #00ffff; 
+ 
+ 
 }
-#bolinha1{
+.bolinha1{
     width: 5px;
     height: 5px;
     margin-left: 18px;
@@ -94,16 +106,17 @@ input::placeholder{
     margin-top: -14px;
 
 }
-#bolinha3{
+.bolinha3{
     width: 5px;
     height: 5px;
     margin-left: -0.0px;
     border: none;
     border-radius: 900px;
-    margin-top: 8px;
+    margin-top: 3px;
     background-color: rgb(255, 255, 255);
+    margin-bottom: 36px;
 }
-#bolinha4{
+.bolinha4{
     width: 5px;
     height: 5px;
     margin-left: -0.0px;
@@ -112,25 +125,26 @@ input::placeholder{
     border: none;
     border-radius: 900px;
 }
-#quadro{
+.quadro{
     position: relative;
 }
-#edificio{
+.edificio{
     width: 800px;
     height: 700px;
-    margin-top: -700px;
+    margin-top: 10px;
    z-index: 1;
+   margin-left: -1300px;
 }
-#modelo{
+.modelo{
     width: 700px;
     margin-left: 600px;
    margin-top: 30px;
    position: relative;
 }
 .circulocentral{
-    width: 450px;
-    height: 450px;
-    background-color: rgba(128, 201, 216, 0.235);
+    width: 490px;
+    height: 490px;
+    background-color: rgba(73, 201, 226, 0.235);
     border-radius: 900px;
     margin-top: -600px;
     margin-left: 40px;
@@ -153,35 +167,45 @@ input::placeholder{
     font-family: 'Montserrat', 'Poppins' sans-serif ;
     font-size: 60px;
     color: rgba(5, 72, 179, 0.838);
-    margin-left: 130px;
-    margin-top: -80px;
+    margin-left: 150px;
+    margin-top: -99px;
     font-weight: bolder;
 }
-#lasttext{
-    color: rgb(3, 31, 72);
-    font-size: 19px;
-    margin-left: 100px;
+.lasttext{
+    color: rgb(1, 12, 30);
+    font-size: 17px;
+    margin-left: 108px;
+    text-indent: 10px;
+    margin-top: -40px;
 }
-#botao{
+.nossa{
+color: rgb(1, 12, 30);
+    font-size: 17px;
+    margin-left: 108px;
+    text-indent: 30px;
+    margin-top: -20px;
+}
+
+.botao{
     background-color: rgb(5, 228, 228);
-    color: rgb(28, 69, 130);
+    color: rgb(6, 71, 168);
     border: 1px solid rgb(5, 228, 228);
     border-radius: 10px;
     width: 120px;
     height: 40px;
     font-size: 16px;
-    margin-left: 200px;
+    margin-left: 220px;
 }
-#retangulo{
+.retangulo{
     height: 120px;
     width: 600px;
-    background-color: rgb(0, 157, 255);
+    background-color: rgb(0, 25, 251);
     margin-left: 700px;
     z-index: 3;
     margin-top: -360px;
   opacity: 0.2;
 }
-#feitos{
+.feitos{
 margin-left: 1130px;
 margin-top: -110px;
 color: rgb(255, 255, 255);
@@ -190,39 +214,39 @@ font-size: 26px;
 font-weight: bold;
 font-family: 'Montserrat', 'Poppins' sans-serif ;
 }
-#futuro{
+.futuro{
    font-family: 'Montserrat', 'Poppins' sans-serif ;
     font-size: 100px;
     color: rgb(255, 255, 255);
     writing-mode: vertical-rl;
-    margin-left: 1134px;
+    margin-left: 1110px;
     position: relative;
-    margin-top: -30px;
+    margin-top: -34px;
     font-weight: bold;
 }
-#de{
+.de{
     color: rgb(255, 255, 255);
-    margin-top: -418px;
-    margin-left: 1128px;
+    margin-top: -396px;
+    margin-left: 1120px;
     position: relative;
     font-size: 18px;
     font-weight: bold;
 }
-#divazul{
+.divazul{
     width: 1000px;
     height: 90px;
-    background-color: rgba(5, 72, 179, 0.838);
+    background-color: rgb(38, 86, 163);
     margin-top: 450px;
     position: relative;
     margin-left: 300px;
-    opacity: 100;
+   
 }
-#divverde{
+.divverde{
     width: 30px;
     height: 90px;
-    background-color: rgb(5, 228, 228);
+    background-color: rgb(0, 251, 251);
 }
-#continuamos{
+.continuamos{
   color: white;
   font-size: 30px;
   margin-left: 200px;
@@ -231,15 +255,16 @@ font-family: 'Montserrat', 'Poppins' sans-serif ;
   justify-content: center; 
   align-items: center; 
   border: none;  
-  padding-top: 30px;
+  padding-top: 20px;
   padding-right: 10px;
+  font-weight: bold;
 }
-#pontos{
+.pontos{
    background-color: rgb(5, 228, 228);
     font-size: 40px;
-    margin-top: -74px;
+    margin-top: -87px;
     position: relative;
-    margin-left: 803px ;
+    margin-left: 910px ;
     color: rgb(5, 228, 228);
 }
 .setadireita{
@@ -247,25 +272,26 @@ font-family: 'Montserrat', 'Poppins' sans-serif ;
    font-weight: bolder;
    margin-left: 20px;
   font-size: 30px;
-  margin-top: 120px;
+  margin-top: 110px;
 }
-#div1{
+.div1{
     background-color: white;
     border: 1.5px solid rgb(219, 219, 219);
     border-radius: 28px;
     width: 270px;
-    height: 100px;
-    margin-left: 70px;
+    height: 118px;
+    margin-left: 50px;
     margin-top: -100px;
+    font-size: 12px;
 }
-#imagem{
+.imagem{
     width: 100px;
-    height: 80px;
+    height: 70px;
     border-radius: 12px;
     margin-left: 13px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
-#licenciatura1{
+.licenciatura1{
     margin-left: 140px;
     margin-top: -85px;
    font-size: 17px;
@@ -284,29 +310,29 @@ margin-left: 140px;
    font-size: 17px;
    color: rgb(1, 47, 87);
 }
-#segundadiv{
+.segundadiv{
      background-color: white;
     border: 1.5px solid rgb(219, 219, 219);
     border-radius: 28px;
     width: 280px;
-    height: 100px;
-    margin-left: 363px;
-    margin-top: -103px;
+    height: 118px;
+    margin-left: 340px;
+    margin-top: -119px;
 }
-#imagem2{
+.imagem2{
      width: 90px;
-    height: 80px;
+    height: 70px;
     border-radius: 12px;
     margin-left: 14px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
-#licenciatura2{
+.licenciatura2{
     margin-left: 130px;
     margin-top: -85px;
    font-size: 17px;
    color: rgb(1, 47, 87);
 }
-#gestao{
+.gestao{
     margin-left: 130px;
     margin-top: -16px;
    font-size: 17px;
@@ -319,29 +345,29 @@ margin-left: 140px;
    font-size: 17px;
    color: rgb(1, 47, 87);
 }
-#terceiradiv{
+.terceiradiv{
      background-color: white;
     border: 1.5px solid rgb(219, 219, 219);
     border-radius: 28px;
     width: 280px;
-    height: 100px;
-    margin-left: 666px;
-    margin-top: -103px;
+    height: 118px;
+    margin-left: 640px;
+    margin-top: -119px;
 }
-#imagem3{
+.imagem3{
      width: 90px;
-    height: 80px;
+    height: 70px;
     border-radius: 12px;
     margin-left: 14px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
-#licenciatura3{
+.licenciatura3{
      margin-left: 130px;
     margin-top: -85px;
    font-size: 17px;
    color: rgb(1, 47, 87);
 }
-#informatica{
+.informatica{
      margin-left: 130px;
     margin-top: -16px;
    font-size: 17px;
@@ -354,29 +380,29 @@ margin-left: 140px;
    font-size: 17px;
    color: rgb(1, 47, 87);
 }
-#quartadiv{
+.quartadiv{
  background-color: white;
     border: 1.5px solid rgb(219, 219, 219);
     border-radius: 28px;
     width: 280px;
-    height: 100px;
-    margin-left: 968px;
-    margin-top: -103px;
+    height: 118px;
+    margin-left: 940px;
+    margin-top: -119px;
 }
-#imagem4{
+.imagem4{
      width: 90px;
-    height: 80px;
+    height: 70px;
     border-radius: 12px;
     margin-left: 14px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
-#formacao{
+.formacao{
      margin-left: 130px;
     margin-top: -85px;
    font-size: 17px;
    color: rgb(1, 47, 87);
 }
-#manutencao{
+.manutencao{
      margin-left: 130px;
     margin-top: -16px;
    font-size: 17px;
@@ -392,66 +418,68 @@ margin-left: 140px;
 .setadireita1{
      color: rgb(4, 38, 97);
    font-weight: bolder;
-   margin-left: 1280px;
+   margin-left: 1241px;
   font-size: 30px;
-  margin-top: -67px;
+  margin-top: -95px;
 }
-#moco{
+.moco{
     margin-left: 5px;
-    width: 210px;
+    width: 200px;
     height: 349px;
     margin-top: 50px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
-#idoso{
-    width: 210px;
+.idoso{
+    width: 200px;
     height: 350px;
     margin-top: 50px;
   margin-left: -10px;
 }
-#moça{
-     width: 210px;
+.moça{
+     width: 200px;
     height: 349px;
     margin-top: 50px;
   margin-left: -10px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
-#faixa1{
-      height: 120px;
-    width: 618px;
+.faixa1{
+      height: 100px;
+    width: 590px;
     background-color: rgb(6, 30, 250);
     margin-left: 0.5px;
     z-index: 3;
     margin-top: -280px;
   opacity: 0.2;
 }
-#faixa2{
-    height: 120px;
-    width: 647px;
-    background-color: rgb(38, 86, 163);
+.faixa2{
+    height: 100px;
+    width: 620px;
+    background-color: rgb(6, 30, 250);
     margin-left: -7px;
     z-index: 3;
-    margin-top: -120px;
+    margin-top: -100px;
 }
-#sobrenos{
+.sobrenos{
     color: rgb(45, 98, 179);
     font-size: 22px;
     margin-left: 650px;
-    margin-top: -150px;
+    margin-top: -160px;
 }
 .umacademia{
      margin-left: 650px;
-     margin-top: -20px;
+     margin-top: -22px;
      color: rgb(3, 50, 89);
+     font-size: 30px;
 }
 .textao{
      margin-left: 654px;
      margin-top: -10px;
      color: rgb(0, 47, 86);
+     font-size: 13px;
 }
-#saibamais{
+.saibamais{
     background-color: rgb(38, 86, 163);
     width: 130px;
     height: 42px;
@@ -460,36 +488,40 @@ margin-left: 140px;
     border: none;
     border-radius: 10px;
     font-size: 15px;
-   
+    position: static;
+
 }
-#bolinhapri{
-    width: 1400px;
-  margin-top: 100px;
+.bolinhapri{
+    width: 1270px;
+  margin-top: 150px;
+ 
 }
-#academiabai{
+.academiabai{
     color: rgb(45, 98, 179);
     font-size: 22px;
     margin-left: 10px;
 }
-#espaco{
+.espaco{
      color: rgb(3, 50, 89);
      margin-left: 12px;
+     font-size: 31px;
 }
-#textao2{
+.textao2{
      color: rgb(0, 47, 86);
      margin-left: 10px;
+     font-size: 15px;
 }
-#rodadasimagens{
-    margin-left: 650px;
+.rodadasimagens{
+    margin-left: 300px;
     margin-top: -350px;
     width: 600px;
-    height: 250px;
+    height: 220px;
 }
 .controller{
     margin-top: 5px;
 
 }
-#saibamais2{
+.saibamais2{
      background-color: rgb(38, 86, 163);
     width: 130px;
     height: 42px;
@@ -498,38 +530,54 @@ margin-left: 140px;
     border: none;
     border-radius: 10px;
     font-size: 15px;
+    margin-top: -5px;
 }
-#agendarvisita{
-    background-color: rgb(5, 228, 228);
+.agendarvisita{
+    background-color: rgb(17, 239, 239);
     color: rgb(28, 69, 130);
     border: 1px solid rgb(5, 228, 228);
     border-radius: 10px;
-    width: 160px;
+    width: 150px;
     height: 42px;
     font-size: 15px;
-    margin-left: 7px;
-    padding-right: 30px;
+    margin-left: 10px;
+    padding-right: 30px;                  
 }
-#laço{
-    margin-left: -40px;
-    width: 18px;
+.laço{
+width: 16px;
     height: 18px;
+    margin-left: -30px;
+  margin-top: 15px;
 }
-#baixar{
-    background-color: rgb(5, 228, 228);
+.divdolaço {
+    overflow: hidden;
+    border: 1px solid black;
+    display: flex;
+  flex-direction: column;
+  gap: 15px; 
+}
+.downloading{
+    margin-left: 32px;
+    margin-top: -40px;
+    display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+.baixar{
+    background-color:rgb(17, 239, 239);
      width: 48px;
     height: 48px;
     border: 1px solid rgb(5, 228, 228);
     border-radius: 500px;
-    margin-left: 22px;
-    margin-top: -20px;
+   margin-left: 32px;
+    border-top:  30px;
 }
-#download{
-     margin-left: -47px;
-    width: 38px;
-    height: 40px;
+.download{
+     margin-left: -42px;
+    width: 34px;
+    height: 36px;
     border-radius: 50px;
-    margin-top: -90px;
+    margin-top: -100px;
 }
 .faixaazul{
      width: 1200px;
@@ -556,9 +604,9 @@ margin-left: 140px;
   left: 38%;
   transform: translate(-50%, -50%);
 }
-#maispubli{
+.maispubli{
      background-color: rgb(38, 86, 163);
-    width: 200px;
+    width: 180px;
     height: 42px;
     color: white;
     margin-left: 1050px;
@@ -569,18 +617,19 @@ margin-left: 140px;
 }
 .segundaacademia{
      color: rgb(45, 98, 179);
-    font-size: 22px;
-    margin-left: 10px;
+    font-size: 19px;
+    margin-left: 13px;
     margin-top: -40px;
 }
 .ultimaspubli{
     color: rgb(3, 50, 89);
      margin-left: 12px;
      margin-top: -20px;
+     font-size: 27px;
 }
-#caixinha{
+.caixinha{
     width: 220px;
-    height: 280px;
+    height: 300px;
     border: none;
     border-radius: 30px;
     border: 2px solid rgba(217, 225, 225, 0.831);
@@ -588,14 +637,14 @@ margin-left: 140px;
     margin-left: 20px;
     background-color: rgb(255, 255, 255);
 }
-#tias{
+.tias{
     width: 180px;
     height: 120px;
     border-radius: 20px;
     margin-left: 20px;
     margin-top: 20px;
 }
-#isaf{
+.isaf{
     margin-left: 20px;
     margin-top: 5px;
     color: rgb(3, 50, 89);
@@ -609,30 +658,32 @@ margin-left: 140px;
     margin-left: 20px;
     font-size: 12px;
     margin-top: -10px;
+    display: flex;
+    align-items: center;
 }
-#lerpubli{
+.lerpubli{
     color: rgb(38, 86, 163);
     margin-left: 20px;
     font-weight: 900;
 }
 .caixinha2{
       width: 220px;
-    height: 280px;
+    height: 300px;
     border: none;
     border-radius: 30px;
     border: 2px solid rgba(217, 225, 225, 0.831);
-    margin-top: -280px;
+    margin-top: -305px;
     margin-left: 280px;
     background-color: rgb(255, 255, 255);
 }
-#conferencia{
+.conferencia{
     width: 180px;
     height: 120px;
     border-radius: 20px;
     margin-left: 20px;
     margin-top: 20px;
 }
-#isaf2{
+.isaf2{
     margin-left: 20px;
     margin-top: 5px;
     color: rgb(3, 50, 89);
@@ -646,30 +697,32 @@ margin-left: 140px;
     margin-left: 20px;
     font-size: 12px;
     margin-top: -10px;
+    display: flex;
+    align-items: center;
 }
-#caixinha3{
+.caixinha3{
      width: 220px;
-    height: 280px;
+    height: 300px;
     border: none;
     border-radius: 30px;
     border: 2px solid rgba(217, 225, 225, 0.831);
-    margin-top: -285px;
+    margin-top: -305px;
     margin-left:538px;
     background-color: rgb(255, 255, 255);
 }
-#confe2{
+.confe2{
       width: 180px;
     height: 120px;
     border-radius: 20px;
     margin-left: 20px;
     margin-top: 20px;
 }
-#isafencerra{
+.isafencerra{
      margin-left: 20px;
     margin-top: 5px;
     color: rgb(3, 50, 89);
 }
-#data6{
+.data6{
     background-color: rgba(203, 223, 230, 0.726);
    color: rgb(41, 88, 159);
     border: none;
@@ -678,30 +731,32 @@ margin-left: 140px;
     margin-left: 20px;
     font-size: 12px;
     margin-top: -10px;
+    display: flex;
+    align-items: center;
 }
-#caixinha4{
+.caixinha4{
      width: 220px;
-    height: 280px;
+    height: 300px;
     border: none;
     border-radius: 30px;
     border: 2px solid rgba(217, 225, 225, 0.831);
-    margin-top: -285px;
+    margin-top: -305px;
     margin-left:795px;
     background-color: rgb(255, 255, 255);
 }
-#senhora{
+.senhora{
      width: 180px;
     height: 120px;
     border-radius: 20px;
     margin-left: 20px;
     margin-top: 20px;
 }
-#RH{
+.RH{
     margin-left: 20px;
     margin-top: 5px;
     color: rgb(3, 50, 89);
 }
-#data7{
+.data7{
     background-color: rgba(203, 223, 230, 0.726);
    color: rgb(41, 88, 159);
     border: none;
@@ -710,30 +765,32 @@ margin-left: 140px;
     margin-left: 20px;
     font-size: 12px;
     margin-top: -10px;
+    display: flex;
+    align-items: center;
 }
-#caixinha5{
+.caixinha5{
      width: 220px;
-    height: 280px;
+    height: 300px;
     border: none;
     border-radius: 30px;
     border: 2px solid rgba(217, 225, 225, 0.831);
-    margin-top: -285px;
+    margin-top: -305px;
     margin-left:1050px;
     background-color: rgb(255, 255, 255);
 }
-#senhor{
+.senhor{
      width: 180px;
     height: 120px;
     border-radius: 20px;
     margin-left: 20px;
     margin-top: 20px;
 }
-#etica{
+.etica{
      margin-left: 20px;
     margin-top: 5px;
     color: rgb(3, 50, 89);
 }
-#data8{
+.data8{
      background-color: rgba(203, 223, 230, 0.726);
    color: rgb(41, 88, 159);
     border: none;
@@ -742,6 +799,8 @@ margin-left: 140px;
     margin-left: 20px;
     font-size: 12px;
     margin-top: -10px;
+    display: flex;
+    align-items: center;
 }
 .rodadasimagens2{
     margin-left: 10px;
@@ -749,167 +808,185 @@ margin-left: 140px;
     width: 1250px;
     height: 120px;
 }
-#footer{
-    width: auto;
+.footer{
+    width: 1280px;
   margin: 0;
     height: 400px;
     background-color: rgba(221, 232, 236, 0.726);
-    margin-top: 70px;
+    margin-top: 80px;
+    padding: 0;
+     z-index: 1;
+     margin-left: 0;
+     margin-right: 0;
+     margin-bottom: 0;
+     
 }
-#icone{
+.icone{
      width: 190px;
     height: 100px;
    margin-left: 10px;
    margin-top: 50px;
 }
 .criada{
+    margin-top: 10px;
     margin-left: 15px;
     color: rgb(3, 30, 72);
 }
-#titulo{
+.titulo{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
 }
-#grupo1{
+.grupo1{
     margin-left: 370px;
     margin-top: -180px;
     color: rgb(3, 30, 72);
-    font-size: 18px;
+    font-size: 16px;
 }
-#grupo2{
+.grupo2{
      margin-left: 570px;
-    margin-top: -220px;
+    margin-top: -225px;
     color: rgb(3, 30, 72);
-    font-size: 18px;
+    font-size: 16px;
 }
 .atalhos{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
+    margin-top: -5px;
 }
-#grupo3{
+.grupo3{
      margin-left: 730px;
-    margin-top: -180px;
+    margin-top: -185px;
     color: rgb(3, 30, 72);
-    font-size: 18px;
+    font-size: 16px;
+    margin-right: 30px;
 }
-#qualidade{
+.qualidade{
      font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
 }
-#contatos{
-     margin-left: 960px;
+.contatos{
+     margin-left: 980px;
     margin-top: -128px;
     color: rgb(3, 30, 72);
     font-size: 18px;
      font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
+}
+.ultimogrupo{
+ margin-left: -29px;
+  margin-top: -5px;
 }
 .avenida{
-     margin-left: 990px;
-    margin-top: -5px;
+    margin-left: 1020px;
+  margin-top: -152px;
     color: rgb(3, 30, 72);
-    font-size: 16px;
-}
-#resto{
-    margin-left: 950px;
-   width: 30px;
-  margin-top: -150px;
-
-}
-#AB{
-     margin-left: 990px;
-    margin-top: -5px;
-    color: rgb(3, 30, 72);
-    font-size: 16px;
-}
-#number{
-    margin-left: 990px;
-    margin-top: -5px;
-    color: rgb(3, 30, 72);
-    font-size: 16px;
-}
-#email{
-     margin-left: 990px;
-    margin-top: -5px;
-    color: rgb(3, 30, 72);
-    font-size: 16px;
-}
-#cincobolinhas{
-    width: 400px;
-    height: 100px;
-    margin-left: 990px;
-   margin-top: -100px;
-}
-#final{
-    width: 1300px;
-    height: 50px;
-    background-color:rgb(5, 83, 173);
-    margin-top: -20px;
-}
-#politica{
-    margin-left: 20px;
-    color: white;
-   padding-top: 15px;
-}
-#centro{
-     margin-left: 500px;
-    color: rgb(255, 255, 255);
-   padding-top: 15px;
-    margin-top: -50px;
-}
-#redessociais{
-     padding-top: 15px;
-    margin-top: -130px;
-    margin-left: 1050px;
+    font-size: 14px;
     position: relative;
 }
-button:hover ~ .cursor,
-label:hover ~ .cursor {
-  transform: translate(-50%, -50%) scale(1.5);
-  background: rgba(0, 255, 255, 0.8);
+.resto{
+    margin-left: 950px;
+   width: 30px;
+   margin-top: -200px;
+   margin-left: 60px;
+   
+}
+.AB{
+    margin-left: 1020px;
+  margin-top: -5px;
+    color: rgb(3, 30, 72);
+    font-size: 14px;
 }
 
+.number{
+    margin-left: 1020px;
+  margin-top: -5px;
+    color: rgb(3, 30, 72);
+    font-size: 14px;
+}
+.email{
+    margin-left: 1020px;
+  margin-top: -5px;
+    color: rgb(3, 30, 72);
+    font-size: 14px;
+}
+.cincobolinhas{
+    width: 320px;
+    height: 80px;
+    margin-left: 940px;
+   margin-top: -10px;
+}
+.final{
+    width: 1280px;
+    height: 50px;
+    background-color:rgb(5, 89, 185);
+    margin-top: -20px;
+    
+}
+.politica{
+    margin-left: 20px;
+    color: white;
+    margin-top: -40px;
+    
+}
+.centro{
+     margin-left: 500px;
+    color: rgb(255, 255, 255);
+   padding-top: 10px;
+    margin-top: -40px;
+}
+.resto1{
+    margin-left: 990px;
+  z-index: 2;
+  width: 23px;
+  height: 26px;
+margin-top: 40px;
+position: relative;
+}
+.resto2{
+     margin-left: -28px;
+  width: 24px;
+  height: 26px;
+margin-top: 93px;
+position: absolute;
+}
+.resto3{
+    margin-left: 990px;
+    width: 23px;
+    height: 26px;
+    margin-top: 62px;
+    position: relative;
+}
+.redessoci{
+    width: 120px;
+    height: 19px;
+    margin-left: 1100px;
+    position: static;
+    margin-top: 35px;
 
-/* 🔵 Efeito de hover nos botões */
-button {
-  cursor: none; /* para o cursor aqua aparecer */
-  transition: all 0.3s ease;
 }
-button:hover {
-  background-color: #00ffff !important; /* aqua */
-  color: white !important;
-  transform: scale(1.05);
-  border: none;
-}
-button {
-  transition: all 0.3s ease;
-}
+.menu1{
+    background-color: rgba(214, 225, 240, 0.678);
+    width: 190px;
+    height: 310px;
+    border-radius: 20px;
+    margin-left: 210px;
+    color: rgb(26, 25, 25);
+    font-size: 15px;
+     padding-top: 15px;
+     margin-top: 30px;
 
-button:hover {
-  background-color: #00ffff !important;
-  color: #003333 !important; /* azul esverdeado escuro */
-  box-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
-  transform: scale(1.07);
 }
-button:hover {
-  background-color: #007aff; /* tom aqua/azul igual ao site */
-  color: white;
-  transform: scale(1.05);
-}
+.menu1 a{
+    font-size: 14px;
+    color: rgb(1, 11, 78);
+    padding-left: 18px;
+   
 
-/* 🔵 Hover nos labels (menus) */
-label {
-  cursor: none;
-  transition: color 0.3s ease;
 }
+.setaqualidade{
+    font-weight: bold;
+    margin-left: 90px;
+    margin-top: -22px;
 
-label:hover {
-  color: #00ffff; /* aqua */
 }
-
-/* 🔵 Para o cursor desaparecer quando passa por cima de elementos interativos */
-a, input, textarea {
-  cursor: none;
-}
-
 

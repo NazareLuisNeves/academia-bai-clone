@@ -22,14 +22,17 @@
 <div class="circulomaior">
     <div class="circulomenor">
      <div id="bolinha1">
-    <div id="bolinha3" >
+        <div id="bolinha3" >
+            
+        </div>
    <div id="bolinha4"  >
 
     </div>
     </div>
      </div>
-    </div>
 </div>
+
+ </div>
 <body>
     <div id="quadro" > 
        <img src="modelo.png" alt="" id="modelo"  >
@@ -38,7 +41,7 @@
     <div class="circulocentral">
     </div>
      <p class="texto"  >Somos feitos de</p>
-        <p  class="seta"> < </p>
+        <p  class="seta"> &lt </p>
         <p  class="orgulho" >Orgulho</p>
         <p id="lasttext" >   Cada aluno e colaborador contribui para o <br>orgulho corporativo, reflectido na confiança <br>e valor pelo trabalho realizado. Isso fortalece a <br> nossa identidade e cultura.</p>
         <button id="botao">Sobre Nós</button>
@@ -149,6 +152,13 @@ Somos um agente importante no crescimento, dos nossos jovens, dos profissionais,
      <p id="lerpubli">Ler Publicação</p>
 </div>
 <img src="Captura de ecrã 2025-10-21 123134.png" alt=""  class="rodadasimagens2">
+<script>
+document.addEventListener("mousemove", function(e) {
+  const cursor = document.querySelector(".cursor");
+  cursor.style.left = e.pageX + "px";
+  cursor.style.top = e.pageY + "px";
+});
+</script>
 </body>
 <footer>
     <div  id="footer">
